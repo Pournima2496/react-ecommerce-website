@@ -1,0 +1,28 @@
+/* Navbar */
+.navbar-nav a{
+  font-size: 18px;
+}
+
+/* Form */
+
+.form-container{
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+  position: absolute;
+  top: 20%;
+}
+.link{
+  text-decoration: none;
+}
+
+/* Products */
+.card{
+  transition: all .5s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
